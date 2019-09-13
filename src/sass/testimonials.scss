@@ -1,0 +1,103 @@
+.testimonials_base {
+  width: 100%;
+  height: auto;
+  padding: 0px 80px;
+  background: #f7f7f7;
+}
+.testimonials_heading {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 45px;
+  padding-top: 100px;
+  font-weight: 500;
+}
+.testimonials_commentBase {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 78px;
+}
+.testimonials_container {
+  width: 24%;
+  height: auto;
+  display: inline-block;
+}
+.testimonials_container:nth-child(2) {
+  vertical-align: middle;
+}
+.testimonials_container:nth-child(3) {
+  vertical-align: middle;
+}
+
+.testimonials_commentContainer {
+  width: 366px;
+  height: 186px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.testimonials_commentContainer::before {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 58px;
+  width: 0;
+  height: 0;
+  box-shadow: 1;
+  border-top: 30px solid #dcdcdc;
+  border-right: 30px solid transparent;
+}
+.testimonials_comment {
+  font-size: 14px;
+  line-height: 1.45;
+  width: 100%;
+  height: auto;
+  color: #9e9390;
+  position: relative;
+}
+.testimonials_icon {
+  font-size: 24px;
+  color: #ee3c00;
+}
+.testimonials_profilebase {
+  width: 215px;
+  display: inline-block;
+  height: 66px;
+}
+.testimonials_profileImageContainer {
+  width: 30%;
+  height: 66px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.testimonials_profileImage {
+  background-image: url('../images/person.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.testimonials_profileDetails {
+  display: inline-block;
+  width: 68%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.testimonials_profileName {
+  font-size: 16px;
+}
+.testimonials_designation {
+  font-size: 10px;
+  color: #bcb5b3;
+}

@@ -1,0 +1,41 @@
+.banner2_base {
+  width: 100%;
+  height: auto;
+  padding: 0px 80px;
+  background: #fff;
+}
+.banner2_container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner2_leftContainer {
+  width: 40%;
+  height: auto;
+}
+.banner2_heading {
+  width: 100%;
+  height: auto;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 22px;
+}
+.banner2_content {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+}
+.banner2_rightContainer {
+  width: 60%;
+  height: auto;
+}
+.banner2_imageHolder {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

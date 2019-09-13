@@ -1,0 +1,25 @@
+.footer_base {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #212121;
+}
+.footer_copyright {
+  color: #fff;
+  font-size: 14px;
+}
+.footer_followUsBase {
+  display: flex;
+}
+.footer_followUsText {
+  color: #fff;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.footer_image {
+  display: flex;
+  margin-right: 5px;
+}
