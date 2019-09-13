@@ -57,3 +57,34 @@
   font-size: 14px;
   color: #fff;
 }
+@media screen and (max-width: 1024px) {
+  .career_base {
+    height: auto;
+  }
+  .career_wrapper {
+    padding: 45px 15px;
+    height: auto;
+  }
+  .career_inputContainer {
+    display: block;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .career_input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .career_comment {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #fff;
+  }
+  input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+}

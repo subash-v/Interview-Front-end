@@ -23,3 +23,15 @@
   display: flex;
   margin-right: 5px;
 }
+@media screen and (max-width: 1024px) {
+  .footer_base {
+    display: block;
+    height: auto;
+    text-align: center;
+    padding: 32px 0px;
+  }
+  .footer_followUsBase {
+    justify-content: center;
+    margin-top: 32px;
+  }
+}
