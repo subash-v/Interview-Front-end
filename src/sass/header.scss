@@ -28,6 +28,7 @@
   padding-right: 48px;
   color: #afa5a3;
   font-size: 14px;
+  cursor: pointer;
 }
 .header_navList:hover {
   color: #fff;
@@ -40,6 +41,7 @@
   align-items: center;
   background: #ee3c00;
   border-radius: 15px;
+  cursor: pointer;
 }
 .header_buttonText {
   font-size: 14px;
@@ -52,4 +54,37 @@
   background-position: center;
   width: 16px;
   height: 16px;
+}
+@media screen and (min-width: 1025px) {
+  .header_menu {
+    display: none;
+  }
+  .header_message {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header_base {
+    padding: 0px 15px;
+  }
+  .header_menu {
+    display: block;
+    background-image: url('../images/menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+  }
+  .header_navContainer {
+    display: none;
+  }
+  .header_message {
+    background-image: url('../images/message.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+  }
 }

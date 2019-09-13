@@ -20,15 +20,10 @@
   margin-bottom: 78px;
 }
 .testimonials_container {
-  width: 24%;
+  width: 33.11%;
   height: auto;
   display: inline-block;
-}
-.testimonials_container:nth-child(2) {
-  vertical-align: middle;
-}
-.testimonials_container:nth-child(3) {
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .testimonials_commentContainer {
@@ -79,19 +74,18 @@
   vertical-align: middle;
 }
 .testimonials_profileImage {
+  width: 60px;
+  height: 60px;
   background-image: url('../images/person.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 60px;
-  height: 60px;
   border-radius: 50%;
 }
 .testimonials_profileDetails {
   display: inline-block;
   width: 68%;
   height: auto;
-  text-align: center;
   vertical-align: middle;
 }
 .testimonials_profileName {
@@ -100,4 +94,15 @@
 .testimonials_designation {
   font-size: 10px;
   color: #bcb5b3;
+}
+@media screen and (max-width: 1024px) {
+  .testimonials_base {
+    padding: 0px 10px;
+  }
+  .testimonials_container {
+    width: 100%;
+  }
+  .testimonials_commentContainer {
+    width: 100%;
+  }
 }
